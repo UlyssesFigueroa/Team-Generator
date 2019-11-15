@@ -17,7 +17,7 @@ class Employee {
         throw new Error("Expected parameter 'id' to be a non-negative number");
       }
       if (!email || !email.trim().length) {
-        throw new Error("Expected parameter 'name' to be a non-empty string");
+        throw new Error("Expected parameter 'email' to be a non-empty string");
       }
       this.name = name;
       this.id = id;
